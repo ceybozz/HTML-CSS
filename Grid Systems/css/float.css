@@ -1,0 +1,38 @@
+@charset "UTF-8";
+#float {
+    display: flow-root;
+}
+
+@media screen and (min-width:750px) {
+    .du {
+        float: left;
+        margin-bottom: 1rem;
+    }
+    .kan__img {
+        float: left;
+        max-width: 49%;
+    }
+    .float {
+        float: right;
+        max-width: 50%;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .du p {
+        margin-bottom: 1.1rem;
+    }
+    .du {
+        float: left;
+        width: 49%;
+    }
+    .kan__img {
+        float: right;
+        margin-bottom: 1.1rem;
+        max-width: 50%;
+    }
+    .float__img {
+        float: right;
+        max-width: 30%;
+    }
+}
